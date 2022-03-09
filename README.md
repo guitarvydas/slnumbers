@@ -37,3 +37,28 @@ See `run.bash` and `test.txt` and the grammar `batch-edit-4.ohm` and the rewrite
 
 # Github
 
+https://github.com/guitarvydas/slnumbers
+
+# Prep
+
+I've included a sub-directory containing the tool I call `prep` (rhymes with `grep`, and looks like `preprocessor`).
+
+It uses `Ohm-JS`.
+
+It's kinda-like `sed` but uses grammars instead of REGEXs.
+
+`Prep` needs two specifications:
+1. a pattern-matching spec
+2. a rewriting spec.
+
+Rewriting is currently done using an experimental syntax that I call `glue`.
+
+`Prep` is described in [YouTube](https://guitarvydas.github.io/2022/01/20/PREP-Tool.html).
+
+`Prep` is [further described](https://guitarvydas.github.io/2022/03/05/Prep.html).
+
+`Glue` is described by following the links in [ABC Glue](https://guitarvydas.github.io/2021/09/15/ABC-Glue.html).
+
+# Sector Lisp
+
+https://justine.lol/sectorlisp2/
