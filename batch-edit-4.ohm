@@ -1,0 +1,15 @@
+batchEdit4 {
+lotsofstuff = stuff*
+stuff
+  = applySyntactic<BatchEdit>
+  | anychar
+  | "$"
+  
+BatchEdit
+  = digit4
+
+digit4 = "4"
+
+anychar = ~digit4 any
+}
+

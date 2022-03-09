@@ -1,0 +1,9 @@
+lotsofstuff [@stuff] = [[${stuff}]]
+
+stuff [text] = [[${text}]]
+  
+BatchEdit [d] = [[${d}]]
+
+digit4 [c] = [[${c}]]
+
+anychar [c] = [[${c}]]
