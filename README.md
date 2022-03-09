@@ -17,7 +17,9 @@ For example, we could define 10 atoms in Sector Lisp with suggestive names, e.g.
 
 In Sector Lisp, these 10 atoms would be Atoms and would never be garbage collected.
 
-What if you had a batch editor that replaced every occurrence of the character '4' with the string of characters `(quote 4)`? (Even Microsoft Word® can do this (the operation is called `Search and Replace`).
+What if you had a batch editor that replaced every occurrence of the character '4' with the string of characters `(quote 4)`? 
+
+Even Microsoft Word® can do this (the operation is called `Search and Replace`).
 
 The names could be any unicode character, or, any string of characters.  For example, we could define an Atom `(quote IV)` to mean the same thing as `4`.  In ASCII, `IV` needs 2 bytes, whereas `4` needs only one byte.
 
@@ -33,13 +35,13 @@ One line of `bash` script can do the batch edit:
 $prep '.' '$' batch-edit-4.ohm batch-edit-4.glue --stop=1 < test.txt
 ```
 
-See `run.bash` and `test.txt` and the grammar `batch-edit-4.ohm` and the rewrite script `batch-edit-4.glue`.
+See `run.bash` and `test.txt` and the grammar `batch-edit-4.ohm` and the reformatting script `batch-edit-4.glue`.
 
 (The command-line args to *prep* are mostly details that you can decipher later).
 
 ## Github
 
-https://github.com/guitarvydas/slnumbers
+[slnumbers](https://github.com/guitarvydas/slnumbers)
 
 ## Prep
 
@@ -65,7 +67,7 @@ Actually, `prep` uses *REGEX* to find chunks of text, then uses *grammars+glue* 
 
 ## Sector Lisp
 
-https://justine.lol/sectorlisp2/
+[Sector Lisp](https://justine.lol/sectorlisp2/)
 
 ## Disclaimer
 
